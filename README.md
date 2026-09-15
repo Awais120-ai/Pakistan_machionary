@@ -1,22 +1,21 @@
-# Pakistan_machionary
+# Pakistan HMTC
 
-Website for **Pakistan HMTC** (Pakistan Heavy Machinery Training Center).
+Website for **Pakistan HMTC** (Pakistan Heavy Machinery Training Center), built with Next.js and TypeScript.
 
 ## Pages
 
-- Home
-- Our Trainings
-- Get Certificate
-- About Us
-- Contact Us
-- Blog
+- `/` Home
+- `/our-trainings` Our Trainings
+- `/get-certificate` Get Certificate
+- `/about-us` About Us
+- `/contact-us` Contact Us
+- `/blog` Blog
 
 ## Run locally
 
-Open `index.html` in a browser, or from this folder:
-
 ```bash
-python -m http.server 5173
+npm install
+npm run dev
 ```
 
-Then visit http://127.0.0.1:5173/
+Then visit http://localhost:3000
