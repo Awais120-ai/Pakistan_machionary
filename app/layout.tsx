@@ -66,6 +66,23 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" className={`${inter.variable} ${oswald.variable}`}>
       <body>
+        <div
+          style={{
+            position: "fixed",
+            inset: 0,
+            zIndex: 999999,
+            background: "#000",
+            color: "#fff",
+            display: "grid",
+            placeItems: "center",
+            fontSize: "1.5rem",
+            fontFamily: "sans-serif",
+            textAlign: "center",
+            padding: "24px"
+          }}
+        >
+          your website is empty
+        </div>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <Header />
         {children}
